@@ -1,0 +1,18 @@
+{
+  "name": "depshield",
+  "version": "1.0.0",
+  "description": "Dependency vulnerability scanner for package.json and requirements.txt",
+  "main": "src/depshield.js",
+  "scripts": {
+    "start": "node src/depshield.js",
+    "test": "node src/depshield.js help && echo Tests passed",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js roadmap",
+    "achievements": "bash scripts/unlock-all.sh",
+    "setup": "bash scripts/setup.sh"
+  },
+  "keywords": ["github", "achievements", "depshield", "security", "devops"],
+  "author": "YOUR_USERNAME",
+  "license": "MIT",
+  "engines": { "node": ">=20.0.0" }
+}
